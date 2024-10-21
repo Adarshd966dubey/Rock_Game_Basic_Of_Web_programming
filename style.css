@@ -1,0 +1,119 @@
+/* General body styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color:gray; /* Light background color */
+  color: #333; /* Dark text color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Full viewport height */
+  margin: 0; /* Remove default margin */
+}
+
+/* Container class for centralizing content */
+.container_class {
+  text-align: center;
+  background-color: lightgray; /* White background for the game container */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 20px; /* Inner spacing */
+  max-width: 600px; /* Maximum width for the container */
+}
+
+/* Heading styles */
+h1 {
+  font-size: 2.5em; /* Larger font size */
+  margin-bottom: 20px; /* Space below the title */
+  color: #2c3e50; /* Darker color for the title */
+}
+
+/* Styles for the choices section */
+.choices {
+  display: flex; /* Horizontal layout */
+  justify-content: space-around; /* Space between items */
+  margin-bottom: 20px; /* Space below choices */
+}
+
+/* Styles for individual choices */
+.choice {
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: transform 0.2s, box-shadow 0.2s; /* Transition for hover effect */
+  border-radius: 10px; /* Rounded corners */
+  border: 2px solid darkgray;
+}
+
+/* Hover effect for choices */
+.choice:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+/* Image styling within choices */
+.choice img {
+  width: 100px; /* Fixed width for images */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Rounded corners for images */
+  
+}
+/* Scoreboard styles */
+.score-board {
+  display: flex; /* Horizontal layout */
+  justify-content: space-around; /* Space between score elements */
+  margin: 20px 0; /* Margin around the score */
+  padding: 10px; /* Add padding for better spacing */
+  // /* Border around the scoreboard */
+  border-radius: 15px; /* Rounded corners for the scoreboard */
+  // /* Light background for scoreboard */
+}
+
+/* Score styling */
+.score {
+  text-align: center; /* Center score text */
+  background-color: #ffffff; /* White background for score boxes */
+  border: 2px solid brown; /* Border for individual score boxes */
+  border-radius: 10px; /* Rounded corners for individual score boxes */
+  padding: 15px 20px; /* Inner spacing for score boxes */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  transition: transform 0.2s; /* Transition for hover effect */
+}
+
+/* Hover effect for score boxes */
+.score:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Score text styling */
+.score p {
+  font-size: 1.5em; /* Larger font size for score */
+  color:brown; /* Color for the score */
+  margin: 5px 0; /* Margin around score text */
+  font-weight: bold; /* Bold text */
+}
+
+/* Label text styling */
+.score p:last-child {
+  font-size: 1em; /* Smaller font size for labels */
+  color: #777; /* Lighter color for labels */
+}
+
+
+/* Message container styles */
+.msg-container {
+  margin-top: 20px; /* Space above message */ 
+  padding: 15px 20px; /* Inner spacing */
+  border-radius: 25px; /* Circular radius for rounded effect */
+  /* background-color: #aceef7;  Light cyan background 
+color
+   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);  Slight shadow for depth */
+}
+
+#msg {
+  font-size: 2.0em; /* Increase size for the message text */
+  color: white /* Color for message text */
+  font-weight: bold; /* Bold text */
+  background-color: #e0f7fa; /* Match background color with msg-container */
+  border-radius: 30px; /* Add a radius for rounded corners */
+  padding: 15px 20px; /* Add padding inside the message box */
+  display: inline-block; /* Allow the border-radius to take effect */
+  
+}
